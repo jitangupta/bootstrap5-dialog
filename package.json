@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap5-dialog",
+  "name": "@jitangupta/bootstrap5-dialog",
   "version": "0.0.1",
   "description": "Make use of Bootstrap Modal more monkey-friendly.",
   "directories": {
