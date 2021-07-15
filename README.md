@@ -7,10 +7,15 @@ Make use of Bootstrap Modal more monkey-friendly.
 
 See live examples here: <a href="https://jitangupta.github.io/bootstrap5-dialog/">https://jitangupta.github.io/bootstrap5-dialog/</a>
 
-Please note that this project is for <a href="http://getbootstrap.com/"><strong>Bootstrap 5</strong></a>.
+Please note that this project is for <a href="http://getbootstrap.com/"><strong>Bootstrap 5.0.2</strong></a>.
 
 Please note this project is originally created by [nakupanda](https://github.com/nakupanda).
-I have just made it compatible with Bootstrap 5.
+I have just made it compatible with Bootstrap 5.0.2
+
+================
+
+## Upcoming Change
+Soon I will make it compatible with 5.0.0
 
 ================
 
