@@ -1,0 +1,143 @@
+// Colors from bootstrap _variable.scss file
+$modal-content-bg: #fff;
+$info: #0dcaf0;
+$primary: #0d6efd;
+$success: #198754;
+$warning: #ffc107;
+$danger: #dc3545;
+
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+}
+
+.bootstrap-dialog {
+  .modal-header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .bootstrap-dialog-title {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .bootstrap-dialog-message {
+    font-size: 14px;
+  }
+  .bootstrap-dialog-button-icon {
+    margin-right: 3px;
+  }
+  .bootstrap-dialog-close-button {
+    font-size: 20px;
+    float: right;
+    @include opacity(0.9);
+    &:hover {
+      cursor: pointer;
+      @include opacity(1);
+    }
+  }
+
+  /* dialog types */
+  &.type-default {
+    .modal-header {
+      background-color: $modal-content-bg;
+    }
+    .bootstrap-dialog-title {
+      color: #333;
+    }
+  }
+
+  &.type-info {
+    .modal-header {
+      background-color: $info;
+    }
+  }
+
+  &.type-primary {
+    .modal-header {
+      background-color: $primary;
+    }
+  }
+
+  &.type-success {
+    .modal-header {
+      background-color: $success;
+    }
+  }
+
+  &.type-warning {
+    .modal-header {
+      background-color: $warning;
+    }
+  }
+
+  &.type-danger {
+    .modal-header {
+      background-color: $danger;
+    }
+  }
+
+  &.size-large {
+    .bootstrap-dialog-title {
+      font-size: 24px;
+    }
+    .bootstrap-dialog-close-button {
+      font-size: 30px;
+    }
+    .bootstrap-dialog-message {
+      font-size: 18px;
+    }
+  }
+  /**
+     * Icon animation
+     * Copied from font-awesome: http://fontawesome.io/
+     **/
+  .icon-adjust-hue {
+    display: inline-block;
+    -moz-animation: adjust-hue 2s infinite linear;
+    -o-animation: adjust-hue 2s infinite linear;
+    -webkit-animation: adjust-hue 2s infinite linear;
+    animation: adjust-hue 2s infinite linear;
+  }
+  @-moz-keyframes adjust-hue {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+    100% {
+      -moz-transform: rotate(359deg);
+    }
+  }
+  @-webkit-keyframes adjust-hue {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  @-o-keyframes adjust-hue {
+    0% {
+      -o-transform: rotate(0deg);
+    }
+    100% {
+      -o-transform: rotate(359deg);
+    }
+  }
+  @-ms-keyframes adjust-hue {
+    0% {
+      -ms-transform: rotate(0deg);
+    }
+    100% {
+      -ms-transform: rotate(359deg);
+    }
+  }
+  @keyframes adjust-hue {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+  /** End of icon animation **/
+}

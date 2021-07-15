@@ -1,15 +1,15 @@
 {
-    "name": "cross-solution/bootstrap3-dialog",
+    "name": "cross-solution/bootstrap5-dialog",
     "description": "Make use of Bootstrap Modal more monkey-friendly.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nakupanda",
-            "email": "javanoob@hotmail.com"
+            "name": "jitangupta",
+            "email": "hi@jitangupta.com"
         }
     ],
     "require": {
 	"components/jquery": "*",
-	"twbs/bootstrap": "3.*"
+	"twbs/bootstrap": "5.*"
     }
 }
