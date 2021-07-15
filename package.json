@@ -18,7 +18,13 @@
     "dialog",
     "bootstrap 5"
   ],
-  "author": "jitangupta",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/jitangupta"
+  },
+  "author": {
+    "name": "jitangupta",
+    "email": "hi@jitangupta.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jitangupta/bootstrap5-dialog/issues"
